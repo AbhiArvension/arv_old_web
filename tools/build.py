@@ -323,7 +323,7 @@ def page_about():
 def page_contact():
     p = ""
     title = "Contact Arvension Technologies | Get a Free ERP Demo, Trivandrum"
-    desc = "Contact Arvension Technologies LLP in Technopark, Thiruvananthapuram. Call +91 91421 25724 or message us on WhatsApp for a free ERP demo and quote."
+    desc = "Contact Arvension Technologies LLP in Technopark, Thiruvananthapuram. Call 9142125724 or message us on WhatsApp for a free ERP demo and quote."
     opts = "".join(f"<option>{E(x['name'])}</option>" for x in PRODUCTS) + "<option>AI website / chat app</option><option>Website design</option><option>Web app</option><option>Mobile app</option><option>Custom software</option>"
     body = f"""<section class="hero page-hero"><div class="container">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Contact</span></nav>

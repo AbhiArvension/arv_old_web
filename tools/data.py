@@ -4,7 +4,7 @@ SITE = {
     "name": "Arvension Technologies LLP",
     "short": "Arvension",
     "url": "https://arvension.in",
-    "phone": "+91 91421 25724",
+    "phone": "9142125724",
     "tel": "+919142125724",
     "wa": "919142125724",
     "address": "4th Floor, Module 6, Gayathri Building, Technopark, Thiruvananthapuram, Kerala 695581, India",
