@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-label="library-management-system illustration">
+      
+    <defs>
+      <filter id="shadow-win" x="-10%" y="-10%" width="125%" height="125%">
+        <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.12"/>
+      </filter>
+      <filter id="shadow-phone" x="-15%" y="-10%" width="130%" height="125%">
+        <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000000" flood-opacity="0.16"/>
+      </filter>
+      <filter id="shadow-chip" x="-10%" y="-20%" width="120%" height="150%">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.08"/>
+      </filter>
+    </defs>
+    <!-- Background Canvas -->
+    <rect width="1000" height="780" rx="36" fill="#0f172a"/>
+    
+    <!-- Subtle architectural guidelines -->
+    <g stroke="#0f172a" stroke-opacity="0.05" stroke-width="1">
+      <line x1="0" y1="130" x2="1000" y2="130"/>
+      <line x1="0" y1="260" x2="1000" y2="260"/>
+      <line x1="0" y1="390" x2="1000" y2="390"/>
+      <line x1="0" y1="520" x2="1000" y2="520"/>
+      <line x1="0" y1="650" x2="1000" y2="650"/>
+      <line x1="200" y1="0" x2="200" y2="780"/>
+      <line x1="400" y1="0" x2="400" y2="780"/>
+      <line x1="600" y1="0" x2="600" y2="780"/>
+      <line x1="800" y1="0" x2="800" y2="780"/>
+    </g>
+    
+      
+    <!-- Desktop Window Base -->
+    <g transform="translate(50 110)" filter="url(#shadow-win)">
+      <rect width="640" height="500" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+      <!-- Window Title Bar -->
+      <path d="M0 20C0 8.95 8.95 0 20 0h600c11.05 0 20 8.95 20 20v28H0V20z" fill="#f1f5f9"/>
+      <line x1="0" y1="48" x2="640" y2="48" stroke="#e2e8f0" stroke-width="1"/>
+      <!-- Mac Window Buttons -->
+      <circle cx="24" cy="24" r="6" fill="#ef4444"/>
+      <circle cx="44" cy="24" r="6" fill="#f59e0b"/>
+      <circle cx="64" cy="24" r="6" fill="#10b981"/>
+      <!-- URL / Title Pill -->
+      <g transform="translate(90 12)">
+        <rect width="260" height="24" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+        <text x="28" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="600" fill="#64748b">arvension.in/erp/library-management-system</text>
+        <g transform="translate(10 5) scale(0.55)" fill="none" stroke="#38bdf8" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></g>
+      </g>
+      <!-- Live Sync Pill -->
+      <g transform="translate(490 12)">
+        <rect width="134" height="24" rx="12" fill="#f1f5f9" stroke="#059669" stroke-opacity="0.3" stroke-width="1"/>
+        <circle cx="14" cy="12" r="4" fill="#22c55e"/>
+        <text x="26" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#22c55e">38,500 Books Catalogued</text>
+      </g>
+    
+      
+    <!-- Sidebar -->
+    <rect x="0" y="48" width="136" height="442" fill="#f1f5f9" stroke-right="#e2e8f0" opacity="0.95"/>
+    <line x1="136" y1="48" x2="136" y2="490" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Brand mark -->
+    <g transform="translate(18 64)">
+      <rect width="28" height="28" rx="8" fill="#059669"/>
+      <text x="8" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="800" fill="#fff">A</text>
+      <text x="36" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#0f172a">ARV</text>
+    </g>
+    
+            <g transform="translate(10 112)">
+              <rect width="116" height="32" rx="8" fill="#059669" fill-opacity="0.2" stroke="#059669" stroke-opacity="0.5" stroke-width="1"/>
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#ffffff" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5zM19 19v2H6"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Catalogue</text>
+            </g>
+            
+            <g transform="translate(10 154)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3zM15 15h2v2h-2zM19 15h2v2h-2zM15 19h2v2h-2zM19 19h2v2h-2z"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Circulation</text>
+            </g>
+            
+            <g transform="translate(10 196)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Members</text>
+            </g>
+            
+            <g transform="translate(10 238)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Overdue</text>
+            </g>
+            
+            <g transform="translate(10 280)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Stock Audit</text>
+            </g>
+            
+    <!-- User bottom avatar -->
+    <g transform="translate(14 445)">
+      <circle cx="14" cy="14" r="13" fill="#e2e8f0"/>
+      <text x="9" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#64748b">HQ</text>
+      <text x="34" y="13" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#475569">Technopark</text>
+      <text x="34" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="500" fill="#64748b">Kerala, India</text>
+    </g>
+    
+      
+        
+        <g transform="translate(152 64)">
+          <rect width="144" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#64748b">TOTAL TITLES</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#0f172a">38,500 Books</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#059669" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#059669">Dewey Decimal</text>
+          </g>
+        </g>
+        
+        <g transform="translate(308 64)">
+          <rect width="144" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#64748b">CIRCULATION</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#0f172a">1,840 Issued</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#22c55e" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#22c55e">Barcode Fast Scan</text>
+          </g>
+        </g>
+        
+        <g transform="translate(464 64)">
+          <rect width="144" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#64748b">OVERDUE ALERTS</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#0f172a">WhatsApp Sent</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#38bdf8" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#38bdf8">Auto-Fine Ready</text>
+          </g>
+        </g>
+        
+        <g transform="translate(152 140)">
+          <rect width="320" height="175" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#0f172a">Rapid Circulation &amp; Check-out Desk</text>
+          <text x="16" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="500" fill="#64748b">Barcode Scanner &amp; Student ID Matching</text>
+          
+          <g transform="translate(16 48)">
+            <rect width="288" height="30" rx="6" fill="#f1f5f9"/>
+            <text x="10" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#059669">Artificial Intelligence</text>
+            <text x="120" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#0f172a">Russell • Due: 18 Nov</text>
+            <circle cx="270" cy="15" r="5" fill="#22c55e"/>
+          </g>
+          <g transform="translate(16 84)">
+            <rect width="288" height="30" rx="6" fill="#f1f5f9"/>
+            <text x="10" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#38bdf8">Database Systems</text>
+            <text x="120" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#0f172a">Silberschatz • Due: 22 Nov</text>
+            <circle cx="270" cy="15" r="5" fill="#22c55e"/>
+          </g>
+          
+          <g transform="translate(16 122)">
+            <text x="0" y="14" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">Automated Overdue Fine:</text>
+            <text x="140" y="14" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#22c55e">WhatsApp Notice Triggered</text>
+          </g>
+        </g>
+        
+        <g transform="translate(152 325)">
+          <rect width="470" height="152" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">Digital Accession Register &amp; Stock Verification</text>
+          <text x="350" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#059669">● BARCODE VERIFIED</text>
+          <line x1="16" y1="36" x2="454" y2="36" stroke="#e2e8f0" stroke-width="1"/>
+          
+          <g transform="translate(16 52)">
+            <rect width="438" height="36" rx="8" fill="#f1f5f9"/>
+            <text x="12" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">Accession #ACC-28941 • Clean Architecture (Martin)</text>
+            <text x="12" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="#64748b">Shelf B-4 • Borrowed by Rahul S. (Roll #402) • Returned in Mint Condition</text>
+            <rect x="360" y="8" width="66" height="20" rx="10" fill="#22c55e" fill-opacity="0.2"/>
+            <text x="368" y="21.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#22c55e">CHECK-IN</text>
+          </g>
+          <g transform="translate(16 98)">
+            <rect width="438" height="36" rx="8" fill="#f1f5f9"/>
+            <text x="12" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">Online Reservation Queue</text>
+            <text x="12" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="#64748b">Deep Learning (Goodfellow) • 2 Members Waiting • Notification Sent</text>
+            <rect x="360" y="8" width="66" height="20" rx="10" fill="#38bdf8" fill-opacity="0.2"/>
+            <text x="366" y="21.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#38bdf8">RESERVED</text>
+          </g>
+        </g>
+        
+      </g>
+      
+    <!-- Modern Smartphone Mockup -->
+    <g transform="translate(646 140)" filter="url(#shadow-phone)">
+      <!-- Outer Metal Body -->
+      <rect width="310" height="570" rx="46" fill="#e2e8f0" stroke="#475569" stroke-width="2.5"/>
+      <!-- Inner Bezel -->
+      <rect x="8" y="8" width="294" height="554" rx="40" fill="#ffffff"/>
+      <!-- Screen Header with Dynamic Island -->
+      <path d="M8 48C8 25.9 25.9 8 48 8h214c22.1 0 40 17.9 40 40v30H8V48z" fill="#f1f5f9"/>
+      <!-- Dynamic Island pill -->
+      <rect x="105" y="18" width="100" height="24" rx="12" fill="#000000"/>
+      <circle cx="188" cy="30" r="5" fill="#111827"/>
+      <!-- Phone Status Bar -->
+      <text x="36" y="34" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#0f172a">9:41</text>
+      <!-- Battery / Wifi icons -->
+      <g transform="translate(242 24)">
+        <rect width="20" height="11" rx="3.5" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <rect x="2" y="2" width="13" height="7" rx="2" fill="#22c55e"/>
+        <path d="M21 4v3" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+      <!-- App Header Bar -->
+      <g transform="translate(18 52)">
+        <rect width="274" height="42" rx="10" fill="#f1f5f9"/>
+        <circle cx="22" cy="21" r="12" fill="#059669"/>
+        <text x="17" y="25" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#fff">A</text>
+        <text x="42" y="26" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">Arvension Library</text>
+        <circle cx="250" cy="21" r="4" fill="#22c55e"/>
+      </g>
+      
+      <!-- Custom Mobile Screen Content -->
+      <g transform="translate(18 102)">
+        
+        <rect width="274" height="66" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+        <circle cx="34" cy="33" r="18" fill="#059669"/>
+        <text x="28" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="800" fill="#fff">RS</text>
+        <text x="62" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#0f172a">Rahul S.</text>
+        <text x="62" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="500" fill="#64748b">Library Member ID: #LIB-402</text>
+        
+        <g transform="translate(0 76)">
+          <rect width="274" height="110" rx="14" fill="#070f1e" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="14" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#059669">ACTIVE BORROWED BOOK</text>
+          <text x="14" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="800" fill="#0f172a">AI Modern Approach</text>
+          <text x="14" y="64" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#22c55e">Due: 18 Nov 2026 (7 Days Left)</text>
+          <g transform="translate(14 74)">
+            <rect width="246" height="22" rx="6" fill="#059669"/>
+            <text x="74" y="15" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#fff">1-CLICK BOOK RENEWAL</text>
+          </g>
+        </g>
+        
+        <g transform="translate(0 196)">
+          <rect width="274" height="80" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="14" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#38bdf8">DIGITAL CATALOGUE SEARCH</text>
+          <text x="14" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#0f172a">38,500 Volumes Accessible on Phone</text>
+          <text x="14" y="54" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#22c55e">Instant Reserve &amp; e-Book Portal ✓</text>
+        </g>
+        
+      </g>
+      
+      <!-- Mobile Bottom Tab Bar -->
+      <g transform="translate(18 506)">
+        <rect width="274" height="46" rx="14" fill="#0f172a" stroke="#e2e8f0" stroke-width="1"/>
+        <g transform="translate(32 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#059669" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g></g>
+        <g transform="translate(100 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11zM12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></g></g>
+        <g transform="translate(168 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2"/></g></g>
+        <g transform="translate(236 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></g></g>
+      </g>
+      <!-- Home indicator bar -->
+      <rect x="95" y="552" width="120" height="4" rx="2" fill="#475569"/>
+    </g>
+    
+      
+    <g transform="translate(40 660)">
+      <rect width="181" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#059669" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#059669"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Barcode issue</text>
+    </g>
+      
+    <g transform="translate(610 70)">
+      <rect width="180" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#38bdf8" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#38bdf8"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Auto fines</text>
+    </g>
+      
+    <g transform="translate(480 680)">
+      <rect width="180" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#22c55e" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#22c55e"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Member app</text>
+    </g>
+    </svg>

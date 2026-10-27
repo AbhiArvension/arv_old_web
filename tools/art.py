@@ -52,6 +52,9 @@ ICONS = {
     "bell": "M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 0 1-3.46 0",
     "trend": "M23 6l-9.5 9.5-5-5L1 18M17 6h6v6",
     "qr": "M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3zM15 15h2v2h-2zM19 15h2v2h-2zM15 19h2v2h-2zM19 19h2v2h-2z",
+    "sun": "M12 3v2M12 19v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z",
+    "moon": "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z",
+    "system": "M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM8 20h8M12 16v4",
 }
 
 
@@ -311,7 +314,7 @@ def render_hero():
     <!-- Real-time Live Operations Feed Table -->
     <g transform="translate(152 325)">
       <rect width="470" height="152" rx="14" fill="#0d162a" stroke="#1e2d4a" stroke-width="1"/>
-      <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Live Field Operations & Branch Ledger</text>
+      <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Live Field Operations &amp; Branch Ledger</text>
       <text x="360" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#22c55e">● AUTO-SYNC</text>
       
       <!-- Table Header -->
@@ -2041,23 +2044,64 @@ def render_about():
 
 
 # ============================================================================
+# LIGHT THEME TRANSFORMER
+# ============================================================================
+def to_light_svg(svg_text):
+    svg_text = svg_text.replace('stroke="#ffffff" stroke-opacity="0.04"', 'stroke="#0f172a" stroke-opacity="0.05"')
+    svg_text = svg_text.replace('flood-opacity="0.6"', 'flood-opacity="0.12"')
+    svg_text = svg_text.replace('flood-opacity="0.75"', 'flood-opacity="0.16"')
+    svg_text = svg_text.replace('flood-opacity="0.25"', 'flood-opacity="0.08"')
+    
+    color_map = [
+        ('#080e1a', '#f8fafc'),
+        ('#0b1324', '#ffffff'),
+        ('#111c33', '#f1f5f9'),
+        ('#0d162a', '#ffffff'),
+        ('#0e172a', '#ffffff'),
+        ('#0e172c', '#ffffff'),
+        ('#070c17', '#f1f5f9'),
+        ('#090e1c', '#f8fafc'),
+        ('#16223d', '#e2e8f0'),
+        ('#060b14', '#f1f5f9'),
+        ('#020617', '#1e293b'),
+        ('#090f1d', '#ffffff'),
+        ('#050a14', '#f1f5f9'),
+        ('#0d1629', '#f1f5f9'),
+        ('#070d18', '#f8fafc'),
+        ('#1e293b', '#e2e8f0'),
+        ('#1e2d4a', '#e2e8f0'),
+        ('#1e2a42', '#cbd5e1'),
+        ('#334155', '#cbd5e1'),
+        ('#f8fafc', '#0f172a'),
+        ('#94a3b8', '#64748b'),
+        ('#cbd5e1', '#475569'),
+    ]
+    for dark_val, light_val in color_map:
+        svg_text = svg_text.replace(dark_val, light_val)
+    return svg_text
+
+
+# ============================================================================
 # DISPATCHER
 # ============================================================================
-def art(accent, icon_name, chips, mode="dash", slug=None):
+def art(accent, icon_name, chips, mode="dash", slug=None, theme="dark"):
     if slug:
-        return render_product_svg(slug, accent, icon_name, chips)
-    if mode == "hero":
-        return render_hero()
-    if mode == "chat":
-        return render_ai_chat()
-    if mode == "site":
-        return render_web()
-    if mode == "dash_service":
-        return render_dash()
-    if mode == "phones":
-        return render_mobile()
-    if mode == "about":
-        return render_about()
+        out = render_product_svg(slug, accent, icon_name, chips)
+    elif mode == "hero":
+        out = render_hero()
+    elif mode == "chat":
+        out = render_ai_chat()
+    elif mode == "site":
+        out = render_web()
+    elif mode == "dash_service":
+        out = render_dash()
+    elif mode == "phones":
+        out = render_mobile()
+    elif mode == "about":
+        out = render_about()
+    else:
+        out = render_hero()
 
-    # Fallback to master hero
-    return render_hero()
+    if theme == "light":
+        return to_light_svg(out)
+    return out

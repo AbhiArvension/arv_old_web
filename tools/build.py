@@ -49,6 +49,14 @@ ORG = {
 }
 
 
+def art_img(stem, width, height, alt, p="", fetchpriority=False, lazy=True):
+    attr = ' fetchpriority="high"' if fetchpriority else (' loading="lazy"' if lazy else '')
+    return (
+        f'<img class="art-dark" src="{p}{stem}.svg" width="{width}" height="{height}" alt="{E(alt)}"{attr}>'
+        f'<img class="art-light" src="{p}{stem}-light.svg" width="{width}" height="{height}" alt="{E(alt)}"{attr}>'
+    )
+
+
 def head(p, title, desc, path, og_image="img/og-image.png", extra=""):
     canon = f"{BASE}/{path}" if path else f"{BASE}/"
     return f"""<!DOCTYPE html>
@@ -58,6 +66,21 @@ def head(p, title, desc, path, og_image="img/og-image.png", extra=""):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
+<meta name="color-scheme" content="light dark">
+<script>
+(function(){{
+  try {{
+    var t = localStorage.getItem('theme') || 'system';
+    if (t === 'light' || t === 'dark') {{
+      document.documentElement.setAttribute('data-theme', t);
+      var m = document.querySelector('meta[name="color-scheme"]');
+      if (m) m.content = t;
+    }} else {{
+      document.documentElement.setAttribute('data-theme', 'system');
+    }}
+  }} catch(e){{}}
+}})();
+</script>
 <meta name="theme-color" content="#0b1220">
 <link rel="canonical" href="{canon}">
 <link rel="icon" type="image/png" href="{p}img/favicon.png">
@@ -73,7 +96,7 @@ def head(p, title, desc, path, og_image="img/og-image.png", extra=""):
 <meta name="twitter:title" content="{E(title)}">
 <meta name="twitter:description" content="{E(desc)}">
 <meta name="twitter:image" content="{BASE}/{og_image}">
-<link rel="stylesheet" href="{p}css/site.css?v=2">
+<link rel="stylesheet" href="{p}css/site.css?v=3">
 {extra}</head>
 """
 
@@ -83,6 +106,13 @@ def header(p, current):
              ("about.html", "About", "about"), ("contact.html", "Contact", "contact")]
     items = "".join(
         f'<a class="nl" href="{p}{h}"{" aria-current=page" if current == k else ""}>{t}</a>' for h, t, k in links)
+    theme_switch = (
+        f'<div class="theme-switch" role="group" aria-label="Theme mode">'
+        f'<button type="button" class="theme-btn" data-theme-val="light" title="Bright theme" aria-label="Bright theme">{icon("sun")}<span class="sr-only">Bright</span></button>'
+        f'<button type="button" class="theme-btn active" data-theme-val="system" title="System theme (auto)" aria-label="System theme (auto)">{icon("system")}<span class="sr-only">System</span></button>'
+        f'<button type="button" class="theme-btn" data-theme-val="dark" title="Dark theme" aria-label="Dark theme">{icon("moon")}<span class="sr-only">Dark</span></button>'
+        f'</div>'
+    )
     return f"""<body>
 <a class="skip" href="#main">Skip to content</a>
 {sprite()}
@@ -90,7 +120,7 @@ def header(p, current):
 <div class="container nav">
 <a class="brand" href="{p}index.html" aria-label="{SITE['name']} home"><img src="{p}img/logo.webp" width="40" height="40" alt=""><span class="brand-name">Arvension<small>Technologies LLP</small></span></a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">{icon('menu', 'ic i-menu')}{icon('close', 'ic i-close')}</button>
-<nav class="nav-menu" id="nav-menu" aria-label="Main">{items}<a class="btn btn-primary" href="{wa_link('Hello Arvension, I would like a free ERP demo.')}" target="_blank" rel="noopener">Free demo</a></nav>
+<nav class="nav-menu" id="nav-menu" aria-label="Main">{items}{theme_switch}<a class="btn btn-primary" href="{wa_link('Hello Arvension, I would like a free ERP demo.')}" target="_blank" rel="noopener">Free demo</a></nav>
 </div>
 </header>
 <main id="main">
@@ -145,7 +175,7 @@ def faq_ld(items):
 def product_card(p, x):
     apps = "".join(f'<span class="tag">{E(a[0].replace(" Mobile App", " App"))}</span>' for a in x["apps"][:3])
     return f"""<a class="card reveal" href="{p}erp/{x['slug']}.html" style="--c:{x['color']}">
-<div class="card-art"><img src="{p}img/products/{x['slug']}.svg" width="600" height="380" alt="{E(x['name'])} preview" loading="lazy"></div>
+<div class="card-art">{art_img(f"img/products/{x['slug']}", 600, 380, f"{x['name']} preview", p=p, lazy=True)}</div>
 <span class="ibox">{icon(x['icon'])}</span><h3>{E(x['name'])}</h3><p>{E(x['short'])}</p>
 <div class="tags">{apps}</div><span class="more">Explore {icon('arrow')}</span></a>"""
 
@@ -194,7 +224,7 @@ def page_index():
 <p class="lead">From schools and colleges to microfinance, chit fund, gold loan, Nidhi and co-operative societies. One system for every branch, with mobile apps for your customers, agents and staff.</p>
 <div class="btn-row"><a class="btn btn-primary" href="{wa_link('Hello Arvension, I would like a free ERP demo.')}" target="_blank" rel="noopener">{icon('whatsapp')} Book a free demo</a><a class="btn btn-ghost" href="erp.html">Explore ERP solutions</a></div>
 <ul class="trust"><li>{icon('check')} Unlimited branches &amp; staff</li><li>{icon('check')} Android &amp; iOS apps</li><li>{icon('check')} AI built in</li><li>{icon('check')} Local support</li></ul></div>
-<div class="hero-art"><img src="img/hero.svg" width="1000" height="780" alt="Arvension ERP dashboard and mobile app preview" fetchpriority="high"></div>
+<div class="hero-art">{art_img("img/hero", 1000, 780, "Arvension ERP dashboard and mobile app preview", fetchpriority=True)}</div>
 </div></section>
 <section class="strip"><ul class="container">
 <li><strong>12</strong><span>Ready ERP solutions</span></li><li><strong>Unlimited</strong><span>Branches &amp; staff</span></li>
@@ -209,7 +239,7 @@ def page_index():
 <div><span class="eyebrow">Artificial intelligence</span><h2>AI that does real work, not just a buzzword</h2>
 <p>Our ERPs use AI where it saves money and time: predicting problems, automating follow-ups and answering questions about your own data.</p>{checks(ai)}
 <a class="btn btn-primary" href="services.html#ai-websites-chat-apps">AI websites &amp; chat apps</a></div>
-<div class="split-media reveal"><img src="img/ai-chat.svg" width="1000" height="780" alt="AI chat assistant answering business questions" loading="lazy"></div></div></section>
+<div class="split-media reveal">{art_img("img/ai-chat", 1000, 780, "AI chat assistant answering business questions", lazy=True)}</div></div></section>
 <section class="section"><div class="container">
 <div class="section-head"><span class="eyebrow">Services</span><h2>Websites, web apps, mobile apps and AI</h2><p>Not just ERP. We design and build the digital products your business needs to be found, trusted and chosen.</p></div>
 <div class="grid">{svc}</div></div></section>
@@ -217,7 +247,7 @@ def page_index():
 <div class="section-head"><span class="eyebrow">How we work</span><h2>From first call to live system</h2></div>
 <ol class="steps">{st}</ol></div></section>
 <section class="section"><div class="container split">
-<div class="split-media reveal"><img src="img/about.svg" width="1000" height="780" alt="Arvension team building software" loading="lazy"></div>
+<div class="split-media reveal">{art_img("img/about", 1000, 780, "Arvension team building software", lazy=True)}</div>
 <div><span class="eyebrow">Why Arvension</span><h2>Built by a Kerala software team that stays with you</h2>
 {checks(["One platform for head office, branches, field teams and customers", "No limits on branches, staff or customers for our finance ERPs", "Customised to your workflow, not forced into a template", "Direct support from the team that built it", "Based in Technopark, Thiruvananthapuram, serving clients across India"])}
 <a class="btn btn-outline" href="about.html">About us</a></div></div></section>
@@ -263,7 +293,7 @@ def page_product(x):
 <div><nav class="crumbs" aria-label="Breadcrumb"><a href="{p}index.html">Home</a><span aria-hidden="true">/</span><a href="{p}erp.html">ERP Solutions</a><span aria-hidden="true">/</span><span>{E(x['name'])}</span></nav>
 <h1>{E(x['h1'])}</h1><p class="lead">{E(x['sub'])}</p>
 <div class="btn-row"><a class="btn btn-primary" href="{wa_link(msg)}" target="_blank" rel="noopener">{icon('whatsapp')} Get a free demo</a><a class="btn btn-ghost" href="tel:{SITE['tel']}">{icon('phone-call')} Call now</a></div></div>
-<div class="hero-art"><img src="{p}img/products/{x['slug']}.svg" width="1000" height="780" alt="{E(x['full'])} dashboard and mobile app" fetchpriority="high"></div></div></section>
+<div class="hero-art">{art_img(f"img/products/{x['slug']}", 1000, 780, f"{x['full']} dashboard and mobile app", p=p, fetchpriority=True)}</div></div></section>
 <section class="section"><div class="container prose" style="max-width:860px"><h2 style="margin-top:0">Overview</h2><p style="font-size:1.1rem">{E(x['intro'])}</p>
 <p><strong>Built for:</strong> {E(x['who'])}</p></div></section>
 <section class="section soft"><div class="container"><div class="section-head"><span class="eyebrow">Features</span><h2>What is inside the {E(x['name'])}</h2></div>
@@ -285,7 +315,7 @@ def page_services():
     imgs = {"ai-websites-chat-apps": "ai-chat", "web-design": "web", "web-apps": "dash", "mobile-apps": "mobile", "erp-development": "hero"}
     rows = []
     for i, s in enumerate(SERVICES):
-        rows.append(f"""<div class="svc split{' rev' if i % 2 else ''}" id="{s['slug']}"><div class="split-media reveal"><img src="img/{imgs[s['slug']]}.svg" width="1000" height="780" alt="{E(s['name'])}" loading="lazy"></div>
+        rows.append(f"""<div class="svc split{' rev' if i % 2 else ''}" id="{s['slug']}"><div class="split-media reveal">{art_img(f"img/{imgs[s['slug']]}", 1000, 780, s['name'], lazy=True)}</div>
 <div><span class="ibox" style="--c:{BRAND}">{icon(s['icon'])}</span><h2 style="margin-top:16px">{E(s['name'])}</h2><p>{E(s['short'])}</p>{checks(s['points'])}
 <a class="btn btn-primary" href="{wa_link('Hello Arvension, I am interested in ' + s['name'] + '.')}" target="_blank" rel="noopener">Discuss your project</a></div></div>""")
     schema = ld({"@context": "https://schema.org", "@type": "ItemList", "name": "Arvension services",
@@ -314,7 +344,7 @@ def page_about():
 <div><span class="eyebrow">Our story</span><h2>From campus start-up to ERP specialists</h2>
 <p>We began by building software for small businesses and training students. Over time we saw the same problems everywhere: schools, finance companies and contractors running critical work on registers and spreadsheets.</p>
 <p>So we built ERP systems for them, and wrapped each in the mobile apps real teams need: attendance, field collection with live tracking, parent and customer apps. Today we also build AI websites and chat apps, web apps and mobile apps for clients across India.</p></div>
-<div class="split-media reveal"><img src="img/about.svg" width="1000" height="780" alt="Arvension team at work" loading="lazy"></div></div></section>
+<div class="split-media reveal">{art_img("img/about", 1000, 780, "Arvension team at work", lazy=True)}</div></div></section>
 <section class="section soft"><div class="container"><div class="section-head"><span class="eyebrow">What we value</span><h2>How we work</h2></div><div class="grid">{v}</div></div></section>
 <section class="section"><div class="container prose"><h2 style="margin-top:0">Visit us</h2><p>{E(SITE['address'])}<br>{SITE['hours']}</p>
 <p><a class="btn btn-outline" href="contact.html">Contact us</a></p></div></section>{cta()}"""
@@ -397,13 +427,20 @@ def build():
     write("404.html", page_404())
     for x in PRODUCTS:
         write(f"erp/{x['slug']}.html", page_product(x))
-        write(f"img/products/{x['slug']}.svg", art(x["color"], x["icon"], x["chips"], slug=x["slug"]))
-    write("img/hero.svg", art(BRAND, "shield", ["Live Agent GPS Tracking", "Unlimited Branches & Staff", "AI Defaulter Risk Engine"], mode="hero"))
-    write("img/ai-chat.svg", art("#7c3aed", "chat", ["24/7 AI Lead Assistant", "Instant WhatsApp Bot", "Multilingual Support"], mode="chat"))
-    write("img/web.svg", art("#0891b2", "globe", ["100/100 Lighthouse Speed", "Mobile-First Responsive", "On-Page SEO Engine"], mode="site"))
-    write("img/dash.svg", art("#2563eb", "chart", ["Role-Based Access Control", "Enterprise Cloud SaaS", "REST & GraphQL APIs"], mode="dash_service"))
-    write("img/mobile.svg", art("#16a34a", "phone", ["Native Android & iOS Apps", "Live GPS Geofencing", "Offline Sync Engine"], mode="phones"))
-    write("img/about.svg", art("#d97706", "code", ["Technopark Trivandrum HQ", "Enterprise Software Engineering", "Dedicated Kerala Team"], mode="about"))
+        write(f"img/products/{x['slug']}.svg", art(x["color"], x["icon"], x["chips"], slug=x["slug"], theme="dark"))
+        write(f"img/products/{x['slug']}-light.svg", art(x["color"], x["icon"], x["chips"], slug=x["slug"], theme="light"))
+    write("img/hero.svg", art(BRAND, "shield", ["Live Agent GPS Tracking", "Unlimited Branches & Staff", "AI Defaulter Risk Engine"], mode="hero", theme="dark"))
+    write("img/hero-light.svg", art(BRAND, "shield", ["Live Agent GPS Tracking", "Unlimited Branches & Staff", "AI Defaulter Risk Engine"], mode="hero", theme="light"))
+    write("img/ai-chat.svg", art("#7c3aed", "chat", ["24/7 AI Lead Assistant", "Instant WhatsApp Bot", "Multilingual Support"], mode="chat", theme="dark"))
+    write("img/ai-chat-light.svg", art("#7c3aed", "chat", ["24/7 AI Lead Assistant", "Instant WhatsApp Bot", "Multilingual Support"], mode="chat", theme="light"))
+    write("img/web.svg", art("#0891b2", "globe", ["100/100 Lighthouse Speed", "Mobile-First Responsive", "On-Page SEO Engine"], mode="site", theme="dark"))
+    write("img/web-light.svg", art("#0891b2", "globe", ["100/100 Lighthouse Speed", "Mobile-First Responsive", "On-Page SEO Engine"], mode="site", theme="light"))
+    write("img/dash.svg", art("#2563eb", "chart", ["Role-Based Access Control", "Enterprise Cloud SaaS", "REST & GraphQL APIs"], mode="dash_service", theme="dark"))
+    write("img/dash-light.svg", art("#2563eb", "chart", ["Role-Based Access Control", "Enterprise Cloud SaaS", "REST & GraphQL APIs"], mode="dash_service", theme="light"))
+    write("img/mobile.svg", art("#16a34a", "phone", ["Native Android & iOS Apps", "Live GPS Geofencing", "Offline Sync Engine"], mode="phones", theme="dark"))
+    write("img/mobile-light.svg", art("#16a34a", "phone", ["Native Android & iOS Apps", "Live GPS Geofencing", "Offline Sync Engine"], mode="phones", theme="light"))
+    write("img/about.svg", art("#d97706", "code", ["Technopark Trivandrum HQ", "Enterprise Software Engineering", "Dedicated Kerala Team"], mode="about", theme="dark"))
+    write("img/about-light.svg", art("#d97706", "code", ["Technopark Trivandrum HQ", "Enterprise Software Engineering", "Dedicated Kerala Team"], mode="about", theme="light"))
     urls = ["", "erp.html", "services.html", "about.html", "contact.html", "privacy.html", "terms.html"] + [f"erp/{x['slug']}.html" for x in PRODUCTS]
     smap = "".join(f"<url><loc>{BASE}/{u}</loc><lastmod>{TODAY}</lastmod><priority>{'1.0' if not u else '0.8'}</priority></url>" for u in urls)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{smap}</urlset>\n')
