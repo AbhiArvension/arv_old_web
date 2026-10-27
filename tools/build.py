@@ -9,6 +9,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from art import art, icon, sprite  # noqa: E402
 from data import CATEGORIES, HOME_FAQ, PRODUCTS, SERVICES, SITE  # noqa: E402
 
+OAI_PIXEL = '''<script>!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"SfCDRvrF3ismRjamuGAuXn",debug:true});</script>'''
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TODAY = "2026-10-26"
 E = html.escape
@@ -64,6 +65,7 @@ def head(p, title, desc, path, og_image="img/og-image.png", extra=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{OAI_PIXEL}
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <meta name="color-scheme" content="light dark">
