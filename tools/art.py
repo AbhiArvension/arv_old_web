@@ -27,7 +27,7 @@ ICONS = {
     "phone": "M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM11 18h2",
     "globe": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18",
     "chat": "M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-5.4A8 8 0 1 1 21 12zM8.5 12h.01M12 12h.01M15.5 12h.01",
-    "sparkle": "M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3zM19 16l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7.7-2z",
+    "cpu": "M4 4h16v16H4zM9 9h6v6H9zM9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3",
     "code": "M16 18l6-6-6-6M8 6l-6 6 6 6",
     "pin": "M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11zM12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z",
     "clock": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2",
@@ -75,7 +75,7 @@ def _mix(hexc, other, f):
 
 
 def _path_icon(name, x, y, scale=1.0, color="#fff", sw=1.8):
-    d = ICONS.get(name, ICONS["sparkle"])
+    d = ICONS.get(name, ICONS["check"])
     return f'<g transform="translate({x} {y}) scale({scale})" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linecap="round" stroke-linejoin="round"><path d="{d}"/></g>'
 
 
@@ -91,23 +91,8 @@ def _chip(x, y, text, color, icon_name="check"):
 
 
 def _canvas_bg(accent, secondary="#2563eb"):
-    glow1 = accent
-    glow2 = secondary
     return f"""
     <defs>
-      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#070c17"/>
-        <stop offset="50%" stop-color="#0b1324"/>
-        <stop offset="100%" stop-color="#080e1c"/>
-      </linearGradient>
-      <radialGradient id="glow-l" cx="15%" cy="85%" r="65%">
-        <stop offset="0%" stop-color="{glow2}" stop-opacity="0.32"/>
-        <stop offset="100%" stop-color="{glow2}" stop-opacity="0"/>
-      </radialGradient>
-      <radialGradient id="glow-r" cx="85%" cy="15%" r="60%">
-        <stop offset="0%" stop-color="{glow1}" stop-opacity="0.45"/>
-        <stop offset="100%" stop-color="{glow1}" stop-opacity="0"/>
-      </radialGradient>
       <filter id="shadow-win" x="-10%" y="-10%" width="125%" height="125%">
         <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.6"/>
       </filter>
@@ -117,19 +102,9 @@ def _canvas_bg(accent, secondary="#2563eb"):
       <filter id="shadow-chip" x="-10%" y="-20%" width="120%" height="150%">
         <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
       </filter>
-      <linearGradient id="chrome-bar" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#141f36"/>
-        <stop offset="100%" stop-color="#101828"/>
-      </linearGradient>
-      <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="{accent}"/>
-        <stop offset="100%" stop-color="{_mix(accent, '#000000', 0.25)}"/>
-      </linearGradient>
     </defs>
     <!-- Background Canvas -->
-    <rect width="1000" height="780" rx="36" fill="url(#bg)"/>
-    <rect width="1000" height="780" rx="36" fill="url(#glow-l)"/>
-    <rect width="1000" height="780" rx="36" fill="url(#glow-r)"/>
+    <rect width="1000" height="780" rx="36" fill="#080e1a"/>
     
     <!-- Subtle architectural guidelines -->
     <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
@@ -152,7 +127,7 @@ def _desktop_chrome(x, y, w, h, title, status_text="99.98% Synced", accent=BRAND
     <g transform="translate({x} {y})" filter="url(#shadow-win)">
       <rect width="{w}" height="{h}" rx="20" fill="#0b1324" stroke="#1e293b" stroke-width="1.5"/>
       <!-- Window Title Bar -->
-      <path d="M0 20C0 8.95 8.95 0 20 0h{w-40}c11.05 0 20 8.95 20 20v28H0V20z" fill="url(#chrome-bar)"/>
+      <path d="M0 20C0 8.95 8.95 0 20 0h{w-40}c11.05 0 20 8.95 20 20v28H0V20z" fill="#111c33"/>
       <line x1="0" y1="48" x2="{w}" y2="48" stroke="#1e293b" stroke-width="1"/>
       <!-- Mac Window Buttons -->
       <circle cx="24" cy="24" r="6" fill="#ef4444"/>
@@ -306,20 +281,14 @@ def render_hero():
       <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Collection Performance (All Branches)</text>
       <text x="16" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="500" fill="#94a3b8">Real-time head office consolidation</text>
       
-      <!-- Chart Area with Gradient -->
-      <defs>
-        <linearGradient id="hero-chart-grad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="{accent}" stop-opacity="0.45"/>
-          <stop offset="100%" stop-color="{accent}" stop-opacity="0.0"/>
-        </linearGradient>
-      </defs>
+      <!-- Chart Area with Solid Accent Opacity -->
       <!-- Grid lines -->
       <line x1="20" y1="70" x2="300" y2="70" stroke="#1e293b" stroke-dasharray="3 3"/>
       <line x1="20" y1="105" x2="300" y2="105" stroke="#1e293b" stroke-dasharray="3 3"/>
       <line x1="20" y1="140" x2="300" y2="140" stroke="#1e293b" stroke-width="1"/>
       
       <!-- Area Fill -->
-      <polygon points="20,140 20,118 65,108 110,116 155,92 200,98 245,68 290,52 290,140" fill="url(#hero-chart-grad)"/>
+      <polygon points="20,140 20,118 65,108 110,116 155,92 200,98 245,68 290,52 290,140" fill="{accent}" fill-opacity="0.12"/>
       <!-- Curve Line -->
       <polyline points="20,118 65,108 110,116 155,92 200,98 245,68 290,52" fill="none" stroke="{accent}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
       
@@ -442,7 +411,7 @@ def render_hero():
         ("layers", "Branches"),
         ("db", "Ledger"),
         ("pin", "Agent GPS"),
-        ("sparkle", "AI Copilot"),
+        ("cpu", "AI Copilot"),
     ], active_idx=0, accent=accent)
 
     phone = _phone_mockup(646, 140, "Arvension Agent", mobile_content, accent)
@@ -450,7 +419,7 @@ def render_hero():
     # 3 Floating Badges
     b1 = _chip(40, 660, chips[0], "#22c55e", "pin")
     b2 = _chip(610, 70, chips[1], "#38bdf8", "layers")
-    b3 = _chip(480, 680, chips[2], accent, "sparkle")
+    b3 = _chip(480, 680, chips[2], accent, "cpu")
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-label="Arvension AI ERP and Mobile Apps Ecosystem">
       {_canvas_bg(accent, sec)}
@@ -1621,7 +1590,7 @@ def render_product_svg(slug, color, icon_name, chips):
 
     b1 = _chip(40, 660, chips[0], accent, "check")
     b2 = _chip(610, 70, chips[1], "#38bdf8", "layers")
-    b3 = _chip(480, 680, chips[2], "#22c55e", "sparkle")
+    b3 = _chip(480, 680, chips[2], "#22c55e", "check")
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-label="{E(slug)} illustration">
       {_canvas_bg(accent, sec)}
@@ -1721,10 +1690,10 @@ def render_ai_chat():
     """
 
     desktop_frame = _desktop_chrome(50, 110, 640, 500, "arvension.in/ai-chat-engine", "AI Active", accent)
-    sidebar = _desktop_sidebar([("chat", "Chat Engine"), ("sparkle", "AI Models"), ("user", "Leads"), ("shield", "Security")], 0, accent)
+    sidebar = _desktop_sidebar([("chat", "Chat Engine"), ("cpu", "AI Models"), ("user", "Leads"), ("shield", "Security")], 0, accent)
     phone = _phone_mockup(646, 140, "WhatsApp AI", mobile_inner, accent)
 
-    b1 = _chip(40, 660, chips[0], accent, "sparkle")
+    b1 = _chip(40, 660, chips[0], accent, "cpu")
     b2 = _chip(610, 70, chips[1], "#22c55e", "whatsapp")
     b3 = _chip(480, 680, chips[2], "#38bdf8", "globe")
 
@@ -1814,7 +1783,7 @@ def render_web():
     sidebar = _desktop_sidebar([("globe", "Web Design"), ("palette", "UI/UX"), ("chart", "SEO"), ("shield", "Hosting")], 0, accent)
     phone = _phone_mockup(646, 140, "Mobile Web", mobile_inner, accent)
 
-    b1 = _chip(40, 660, chips[0], "#22c55e", "sparkle")
+    b1 = _chip(40, 660, chips[0], "#22c55e", "check")
     b2 = _chip(610, 70, chips[1], accent, "phone")
     b3 = _chip(480, 680, chips[2], "#38bdf8", "search")
 

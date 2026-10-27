@@ -189,7 +189,7 @@ def page_index():
              ("Support & grow", "Ongoing support, updates and new features as you expand.")]
     st = "".join(f"<li><h3>{a}</h3><p>{b}</p></li>" for a, b in steps)
     body = f"""<section class="hero"><div class="container grid-2">
-<div><span class="eyebrow">{icon('sparkle')} AI-powered software company in Kerala</span>
+<div><span class="eyebrow">AI-powered software company in Kerala</span>
 <h1>ERP, mobile apps and AI software that <em>run your business</em></h1>
 <p class="lead">From schools and colleges to microfinance, chit fund, gold loan, Nidhi and co-operative societies. One system for every branch, with mobile apps for your customers, agents and staff.</p>
 <div class="btn-row"><a class="btn btn-primary" href="{wa_link('Hello Arvension, I would like a free ERP demo.')}" target="_blank" rel="noopener">{icon('whatsapp')} Book a free demo</a><a class="btn btn-ghost" href="erp.html">Explore ERP solutions</a></div>
@@ -206,7 +206,7 @@ def page_index():
 <div class="section-head"><span class="eyebrow">Mobile apps</span><h2>Apps your customers, agents and staff will actually use</h2><p>Every ERP comes with the mobile apps that make it work in the real world, not just in the office.</p></div>
 <div class="grid">{app_cards}</div></div></section>
 <section class="section dark"><div class="container split">
-<div><span class="eyebrow">{icon('sparkle')} Artificial intelligence</span><h2>AI that does real work, not just a buzzword</h2>
+<div><span class="eyebrow">Artificial intelligence</span><h2>AI that does real work, not just a buzzword</h2>
 <p>Our ERPs use AI where it saves money and time: predicting problems, automating follow-ups and answering questions about your own data.</p>{checks(ai)}
 <a class="btn btn-primary" href="services.html#ai-websites-chat-apps">AI websites &amp; chat apps</a></div>
 <div class="split-media reveal"><img src="img/ai-chat.svg" width="1000" height="780" alt="AI chat assistant answering business questions" loading="lazy"></div></div></section>
@@ -270,7 +270,7 @@ def page_product(x):
 <ul class="modules" style="--c:{x['color']}">{mods}</ul></div></section>
 <section class="section"><div class="container"><div class="section-head"><span class="eyebrow">Mobile apps</span><h2>Mobile apps included</h2></div><div class="grid">{apps}</div></div></section>
 <section class="section dark"><div class="container split">
-<div><span class="eyebrow">{icon('sparkle')} AI features</span><h2>Smarter with built-in AI</h2>{checks(x['ai'])}</div>
+<div><span class="eyebrow">AI features</span><h2>Smarter with built-in AI</h2>{checks(x['ai'])}</div>
 <div><h2 style="font-size:1.5rem">Why choose this system</h2>{checks(x['benefits'])}<a class="btn btn-primary" href="{wa_link(msg)}" target="_blank" rel="noopener">Request a demo</a></div></div></section>
 <section class="section"><div class="container"><div class="section-head"><span class="eyebrow">FAQ</span><h2>{E(x['name'])}: common questions</h2></div>{faq_block(x['faq'])}</div></section>
 <section class="section soft"><div class="container"><div class="section-head"><h2>Related solutions</h2></div><div class="grid">{related}</div></div></section>
@@ -398,7 +398,7 @@ def build():
     for x in PRODUCTS:
         write(f"erp/{x['slug']}.html", page_product(x))
         write(f"img/products/{x['slug']}.svg", art(x["color"], x["icon"], x["chips"], slug=x["slug"]))
-    write("img/hero.svg", art(BRAND, "sparkle", ["Live Agent GPS Tracking", "Unlimited Branches & Staff", "AI Defaulter Risk Engine"], mode="hero"))
+    write("img/hero.svg", art(BRAND, "shield", ["Live Agent GPS Tracking", "Unlimited Branches & Staff", "AI Defaulter Risk Engine"], mode="hero"))
     write("img/ai-chat.svg", art("#7c3aed", "chat", ["24/7 AI Lead Assistant", "Instant WhatsApp Bot", "Multilingual Support"], mode="chat"))
     write("img/web.svg", art("#0891b2", "globe", ["100/100 Lighthouse Speed", "Mobile-First Responsive", "On-Page SEO Engine"], mode="site"))
     write("img/dash.svg", art("#2563eb", "chart", ["Role-Based Access Control", "Enterprise Cloud SaaS", "REST & GraphQL APIs"], mode="dash_service"))
