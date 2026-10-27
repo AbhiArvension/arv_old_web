@@ -1,1 +1,284 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#542ca5"/><stop offset="1" stop-color="#2b1d59"/></linearGradient><radialGradient id="gl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7c3aed" stop-opacity=".55"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient></defs><rect width="1000" height="780" rx="40" fill="url(#bg)"/><circle cx="880" cy="90" r="260" fill="url(#gl)"/><circle cx="60" cy="740" r="240" fill="url(#gl)"/><circle cx="25" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="775" r="1.6" fill="#fff" opacity=".12"/><rect x="60" y="100" width="720" height="500" rx="26" fill="#fff"/><circle cx="96" cy="136" r="7" fill="#fca5a5"/><circle cx="120" cy="136" r="7" fill="#fcd34d"/><circle cx="144" cy="136" r="7" fill="#86efac"/><rect x="60" y="160" width="720" height="2" fill="#eef0f5"/><rect x="90" y="190" width="400" height="64" rx="22" fill="#eef0f5"/><rect x="116" y="212" width="250" height="12" rx="6" fill="#c3c9d6"/><rect x="300" y="276" width="440" height="84" rx="22" fill="#7c3aed"/><rect x="326" y="302" width="320" height="12" rx="6" fill="#ffffff" opacity=".9"/><rect x="326" y="326" width="200" height="12" rx="6" fill="#ffffff" opacity=".6"/><rect x="90" y="382" width="360" height="64" rx="22" fill="#eef0f5"/><rect x="116" y="404" width="220" height="12" rx="6" fill="#c3c9d6"/><rect x="300" y="468" width="300" height="56" rx="22" fill="#7c3aed"/><rect x="326" y="490" width="190" height="12" rx="6" fill="#fff" opacity=".85"/><rect x="90" y="544" width="650" height="40" rx="20" fill="#f3f4f8"/><g transform="translate(690 230)"><rect width="270" height="520" rx="46" fill="#0b1220"/><rect x="10" y="10" width="250" height="500" rx="38" fill="#fff"/><rect x="95" y="20" width="80" height="18" rx="9" fill="#0b1220"/><rect x="10" y="10" width="250" height="190" rx="38" fill="#7c3aed"/><rect x="10" y="120" width="250" height="80" fill="#7c3aed"/><circle cx="135" cy="104" r="42" fill="#5729a6" opacity=".55"/><g transform="translate(105 74) scale(2.5)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-5.4A8 8 0 1 1 21 12zM8.5 12h.01M12 12h.01M15.5 12h.01"/></g><rect x="80" y="160" width="110" height="12" rx="6" fill="#fff" opacity=".85"/><rect x="30" y="222" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="247" r="12" fill="#7c3aed" opacity="1.0"/><rect x="78" y="236" width="110" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="253" width="70" height="8" rx="4" fill="#dde1ea"/><rect x="30" y="284" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="309" r="12" fill="#7c3aed" opacity="0.8"/><rect x="78" y="298" width="102" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="315" width="70" height="8" rx="4" fill="#dde1ea"/><rect x="30" y="346" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="371" r="12" fill="#7c3aed" opacity="0.6"/><rect x="78" y="360" width="94" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="377" width="70" height="8" rx="4" fill="#dde1ea"/><rect x="30" y="408" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="433" r="12" fill="#7c3aed" opacity="0.3999999999999999"/><rect x="78" y="422" width="86" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="439" width="70" height="8" rx="4" fill="#dde1ea"/></g><g transform="translate(40 650)"><rect width="208" height="54" rx="27" fill="#fff"/><circle cx="28" cy="27" r="9" fill="#7c3aed"/><text x="48" y="35" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="21" font-weight="700" fill="#0f172a">AI assistant</text></g><g transform="translate(610 70)"><rect width="208" height="54" rx="27" fill="#fff"/><circle cx="28" cy="27" r="9" fill="#7c3aed"/><text x="48" y="35" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="21" font-weight="700" fill="#0f172a">24/7 replies</text></g><g transform="translate(500 668)"><rect width="208" height="54" rx="27" fill="#fff"/><circle cx="28" cy="27" r="9" fill="#7c3aed"/><text x="48" y="35" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="21" font-weight="700" fill="#0f172a">Lead capture</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-label="AI Websites and Chat Apps">
+      
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#070c17"/>
+        <stop offset="50%" stop-color="#0b1324"/>
+        <stop offset="100%" stop-color="#080e1c"/>
+      </linearGradient>
+      <radialGradient id="glow-l" cx="15%" cy="85%" r="65%">
+        <stop offset="0%" stop-color="#db2777" stop-opacity="0.32"/>
+        <stop offset="100%" stop-color="#db2777" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glow-r" cx="85%" cy="15%" r="60%">
+        <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.45"/>
+        <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="shadow-win" x="-10%" y="-10%" width="125%" height="125%">
+        <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.6"/>
+      </filter>
+      <filter id="shadow-phone" x="-15%" y="-10%" width="130%" height="125%">
+        <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000000" flood-opacity="0.75"/>
+      </filter>
+      <filter id="shadow-chip" x="-10%" y="-20%" width="120%" height="150%">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+      </filter>
+      <linearGradient id="chrome-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#141f36"/>
+        <stop offset="100%" stop-color="#101828"/>
+      </linearGradient>
+      <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#7c3aed"/>
+        <stop offset="100%" stop-color="#5d2cb2"/>
+      </linearGradient>
+    </defs>
+    <!-- Background Canvas -->
+    <rect width="1000" height="780" rx="36" fill="url(#bg)"/>
+    <rect width="1000" height="780" rx="36" fill="url(#glow-l)"/>
+    <rect width="1000" height="780" rx="36" fill="url(#glow-r)"/>
+    
+    <!-- Subtle architectural guidelines -->
+    <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+      <line x1="0" y1="130" x2="1000" y2="130"/>
+      <line x1="0" y1="260" x2="1000" y2="260"/>
+      <line x1="0" y1="390" x2="1000" y2="390"/>
+      <line x1="0" y1="520" x2="1000" y2="520"/>
+      <line x1="0" y1="650" x2="1000" y2="650"/>
+      <line x1="200" y1="0" x2="200" y2="780"/>
+      <line x1="400" y1="0" x2="400" y2="780"/>
+      <line x1="600" y1="0" x2="600" y2="780"/>
+      <line x1="800" y1="0" x2="800" y2="780"/>
+    </g>
+    
+      
+    <!-- Desktop Window Base -->
+    <g transform="translate(50 110)" filter="url(#shadow-win)">
+      <rect width="640" height="500" rx="20" fill="#0b1324" stroke="#1e293b" stroke-width="1.5"/>
+      <!-- Window Title Bar -->
+      <path d="M0 20C0 8.95 8.95 0 20 0h600c11.05 0 20 8.95 20 20v28H0V20z" fill="url(#chrome-bar)"/>
+      <line x1="0" y1="48" x2="640" y2="48" stroke="#1e293b" stroke-width="1"/>
+      <!-- Mac Window Buttons -->
+      <circle cx="24" cy="24" r="6" fill="#ef4444"/>
+      <circle cx="44" cy="24" r="6" fill="#f59e0b"/>
+      <circle cx="64" cy="24" r="6" fill="#10b981"/>
+      <!-- URL / Title Pill -->
+      <g transform="translate(90 12)">
+        <rect width="260" height="24" rx="12" fill="#070c17" stroke="#1e2a42" stroke-width="1"/>
+        <text x="28" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="600" fill="#94a3b8">arvension.in/ai-chat-engine</text>
+        <g transform="translate(10 5) scale(0.55)" fill="none" stroke="#38bdf8" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></g>
+      </g>
+      <!-- Live Sync Pill -->
+      <g transform="translate(490 12)">
+        <rect width="134" height="24" rx="12" fill="#070c17" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+        <circle cx="14" cy="12" r="4" fill="#22c55e"/>
+        <text x="26" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#22c55e">AI Active</text>
+      </g>
+    
+      
+    <!-- Sidebar -->
+    <rect x="0" y="48" width="136" height="442" fill="#070c17" stroke-right="#1e293b" opacity="0.95"/>
+    <line x1="136" y1="48" x2="136" y2="490" stroke="#1e293b" stroke-width="1"/>
+    <!-- Brand mark -->
+    <g transform="translate(18 64)">
+      <rect width="28" height="28" rx="8" fill="#7c3aed"/>
+      <text x="8" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="800" fill="#fff">A</text>
+      <text x="36" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#f8fafc">ARV</text>
+    </g>
+    
+            <g transform="translate(10 112)">
+              <rect width="116" height="32" rx="8" fill="#7c3aed" fill-opacity="0.2" stroke="#7c3aed" stroke-opacity="0.5" stroke-width="1"/>
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#ffffff" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-5.4A8 8 0 1 1 21 12zM8.5 12h.01M12 12h.01M15.5 12h.01"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Chat Engine</text>
+            </g>
+            
+            <g transform="translate(10 154)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3zM19 16l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7.7-2z"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">AI Models</text>
+            </g>
+            
+            <g transform="translate(10 196)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Leads</text>
+            </g>
+            
+            <g transform="translate(10 238)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Security</text>
+            </g>
+            
+    <!-- User bottom avatar -->
+    <g transform="translate(14 445)">
+      <circle cx="14" cy="14" r="13" fill="#1e293b"/>
+      <text x="9" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#94a3b8">HQ</text>
+      <text x="34" y="13" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Technopark</text>
+      <text x="34" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="500" fill="#64748b">Kerala, India</text>
+    </g>
+    
+      
+    
+        <g transform="translate(152 64)">
+          <rect width="144" height="66" rx="12" fill="#0e172c" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">CONVERSATIONS</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#f8fafc">18,420</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#22c55e" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#22c55e">24/7 Active</text>
+          </g>
+        </g>
+        
+        <g transform="translate(308 64)">
+          <rect width="144" height="66" rx="12" fill="#0e172c" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">LEADS CAPTURED</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#f8fafc">1,240</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#a855f7" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#a855f7">WhatsApp Synced</text>
+          </g>
+        </g>
+        
+        <g transform="translate(464 64)">
+          <rect width="144" height="66" rx="12" fill="#0e172c" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">RESPONSE TIME</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#f8fafc">0.4s</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#38bdf8" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#38bdf8">Instant AI</text>
+          </g>
+        </g>
+        
+    
+    <!-- AI Conversation Console -->
+    <g transform="translate(152 140)">
+      <rect width="470" height="338" rx="14" fill="#0d162a" stroke="#1e2d4a" stroke-width="1"/>
+      <text x="18" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Arvension AI Copilot • Customer Live Stream</text>
+      <text x="360" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#22c55e">● COPILOT ACTIVE</text>
+      <line x1="18" y1="36" x2="452" y2="36" stroke="#1e293b" stroke-width="1"/>
+      
+      <!-- User message 1 -->
+      <g transform="translate(18 52)">
+        <rect width="320" height="48" rx="12" fill="#1e293b"/>
+        <text x="14" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="600" fill="#f8fafc">Hello! What are the documents required</text>
+        <text x="14" y="36" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="600" fill="#f8fafc">for a microfinance group loan?</text>
+      </g>
+      
+      <!-- AI Copilot Response -->
+      <g transform="translate(68 114)">
+        <rect width="380" height="96" rx="12" fill="#7c3aed" fill-opacity="0.25" stroke="#7c3aed" stroke-width="1.5"/>
+        <circle cx="22" cy="22" r="10" fill="#7c3aed"/>
+        <text x="16" y="26" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#fff">AI</text>
+        <text x="42" y="22" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Arvension AI Assistant</text>
+        <text x="42" y="42" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#e2e8f0">1. Aadhaar KYC of all group members</text>
+        <text x="42" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#e2e8f0">2. Group formation resolution letter</text>
+        <text x="42" y="74" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#e2e8f0">3. Bank passbook copy for disbursement</text>
+      </g>
+      
+      <!-- Action buttons -->
+      <g transform="translate(68 222)">
+        <rect width="160" height="28" rx="8" fill="#16a34a"/>
+        <text x="18" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#fff">📲 Book Demo on WhatsApp</text>
+      </g>
+      
+      <!-- Input bar -->
+      <g transform="translate(18 280)">
+        <rect width="434" height="42" rx="10" fill="#070c17" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="25" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#64748b">Type your business query in Malayalam, English, or Hindi...</text>
+        <circle cx="410" cy="21" r="14" fill="#7c3aed"/>
+        <text x="404" y="26" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="800" fill="#fff">→</text>
+      </g>
+    </g>
+    
+      </g>
+      
+    <!-- Modern Smartphone Mockup -->
+    <g transform="translate(646 140)" filter="url(#shadow-phone)">
+      <!-- Outer Metal Body -->
+      <rect width="310" height="570" rx="46" fill="#020617" stroke="#334155" stroke-width="2.5"/>
+      <!-- Inner Bezel -->
+      <rect x="8" y="8" width="294" height="554" rx="40" fill="#090f1d"/>
+      <!-- Screen Header with Dynamic Island -->
+      <path d="M8 48C8 25.9 25.9 8 48 8h214c22.1 0 40 17.9 40 40v30H8V48z" fill="#050a14"/>
+      <!-- Dynamic Island pill -->
+      <rect x="105" y="18" width="100" height="24" rx="12" fill="#000000"/>
+      <circle cx="188" cy="30" r="5" fill="#111827"/>
+      <!-- Phone Status Bar -->
+      <text x="36" y="34" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">9:41</text>
+      <!-- Battery / Wifi icons -->
+      <g transform="translate(242 24)">
+        <rect width="20" height="11" rx="3.5" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <rect x="2" y="2" width="13" height="7" rx="2" fill="#22c55e"/>
+        <path d="M21 4v3" stroke="#f8fafc" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+      <!-- App Header Bar -->
+      <g transform="translate(18 52)">
+        <rect width="274" height="42" rx="10" fill="#0d1629"/>
+        <circle cx="22" cy="21" r="12" fill="#7c3aed"/>
+        <text x="17" y="25" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#fff">A</text>
+        <text x="42" y="26" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">WhatsApp AI</text>
+        <circle cx="250" cy="21" r="4" fill="#22c55e"/>
+      </g>
+      
+      <!-- Custom Mobile Screen Content -->
+      <g transform="translate(18 102)">
+        
+    <!-- WhatsApp Mobile View -->
+    <rect width="274" height="66" rx="14" fill="#075e54"/>
+    <circle cx="34" cy="33" r="18" fill="#128c7e"/>
+    <g transform="translate(24 23) scale(0.8)" fill="none" stroke="#fff" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.6-4.7A9 9 0 1 1 8 19.6L3 21zM9 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.6-2.2-1.2-1 .8a5 5 0 0 1-2.3-2.3l.8-1-1.2-2.2L9 8.5z"/></g>
+    <text x="62" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Arvension AI WhatsApp</text>
+    <text x="62" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#a7f3d0">Verified Business • Online</text>
+
+    <g transform="translate(0 76)">
+      <rect width="274" height="180" rx="14" fill="#070f1e" stroke="#1e2d4a" stroke-width="1"/>
+      <g transform="translate(10 14)">
+        <rect width="180" height="36" rx="8" fill="#1e293b"/>
+        <text x="10" y="22" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#f8fafc">I need an ERP demo in Kochi</text>
+      </g>
+      <g transform="translate(30 60)">
+        <rect width="230" height="72" rx="8" fill="#056162"/>
+        <text x="10" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#ffffff">Hello! We would love to show you a</text>
+        <text x="10" y="34" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#ffffff">live demo. Our Kerala team is available</text>
+        <text x="10" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#ffffff">this week. Would Wed 11 AM work?</text>
+        <text x="180" y="64" font-family="system-ui,-apple-system,sans-serif" font-size="8" fill="#a7f3d0">11:02 AM ✓✓</text>
+      </g>
+      <g transform="translate(30 142)">
+        <rect width="230" height="24" rx="6" fill="#25d366"/>
+        <text x="60" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#000">Confirm 11 AM Demo</text>
+      </g>
+    </g>
+    
+      </g>
+      
+      <!-- Mobile Bottom Tab Bar -->
+      <g transform="translate(18 506)">
+        <rect width="274" height="46" rx="14" fill="#070d18" stroke="#1e293b" stroke-width="1"/>
+        <g transform="translate(32 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#7c3aed" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g></g>
+        <g transform="translate(100 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11zM12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></g></g>
+        <g transform="translate(168 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2"/></g></g>
+        <g transform="translate(236 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></g></g>
+      </g>
+      <!-- Home indicator bar -->
+      <rect x="95" y="552" width="120" height="4" rx="2" fill="#475569"/>
+    </g>
+    
+      
+    <g transform="translate(40 660)">
+      <rect width="262" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#7c3aed" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#7c3aed"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">24/7 AI Lead Assistant</text>
+    </g>
+      
+    <g transform="translate(610 70)">
+      <rect width="244" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#22c55e" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#22c55e"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Instant WhatsApp Bot</text>
+    </g>
+      
+    <g transform="translate(480 680)">
+      <rect width="244" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#38bdf8" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#38bdf8"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Multilingual Support</text>
+    </g>
+    </svg>

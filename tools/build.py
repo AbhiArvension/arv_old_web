@@ -145,6 +145,7 @@ def faq_ld(items):
 def product_card(p, x):
     apps = "".join(f'<span class="tag">{E(a[0].replace(" Mobile App", " App"))}</span>' for a in x["apps"][:3])
     return f"""<a class="card reveal" href="{p}erp/{x['slug']}.html" style="--c:{x['color']}">
+<div class="card-art"><img src="{p}img/products/{x['slug']}.svg" width="600" height="380" alt="{E(x['name'])} preview" loading="lazy"></div>
 <span class="ibox">{icon(x['icon'])}</span><h3>{E(x['name'])}</h3><p>{E(x['short'])}</p>
 <div class="tags">{apps}</div><span class="more">Explore {icon('arrow')}</span></a>"""
 
@@ -396,13 +397,13 @@ def build():
     write("404.html", page_404())
     for x in PRODUCTS:
         write(f"erp/{x['slug']}.html", page_product(x))
-        write(f"img/products/{x['slug']}.svg", art(x["color"], x["icon"], x["chips"]))
-    write("img/hero.svg", art(BRAND, "sparkle", ["AI insights", "Live agent tracking", "Unlimited branches"]))
-    write("img/ai-chat.svg", art("#7c3aed", "chat", ["AI assistant", "24/7 replies", "Lead capture"], "chat"))
-    write("img/web.svg", art("#0891b2", "globe", ["SEO-ready", "Mobile-first", "Fast"], "site"))
-    write("img/dash.svg", art("#2563eb", "chart", ["Dashboards", "Secure login", "API ready"]))
-    write("img/mobile.svg", art("#16a34a", "phone", ["Android", "iOS", "Live GPS"], "phones"))
-    write("img/about.svg", art("#d97706", "code", ["Made in Kerala", "Technopark", "Built to last"]))
+        write(f"img/products/{x['slug']}.svg", art(x["color"], x["icon"], x["chips"], slug=x["slug"]))
+    write("img/hero.svg", art(BRAND, "sparkle", ["Live Agent GPS Tracking", "Unlimited Branches & Staff", "AI Defaulter Risk Engine"], mode="hero"))
+    write("img/ai-chat.svg", art("#7c3aed", "chat", ["24/7 AI Lead Assistant", "Instant WhatsApp Bot", "Multilingual Support"], mode="chat"))
+    write("img/web.svg", art("#0891b2", "globe", ["100/100 Lighthouse Speed", "Mobile-First Responsive", "On-Page SEO Engine"], mode="site"))
+    write("img/dash.svg", art("#2563eb", "chart", ["Role-Based Access Control", "Enterprise Cloud SaaS", "REST & GraphQL APIs"], mode="dash_service"))
+    write("img/mobile.svg", art("#16a34a", "phone", ["Native Android & iOS Apps", "Live GPS Geofencing", "Offline Sync Engine"], mode="phones"))
+    write("img/about.svg", art("#d97706", "code", ["Technopark Trivandrum HQ", "Enterprise Software Engineering", "Dedicated Kerala Team"], mode="about"))
     urls = ["", "erp.html", "services.html", "about.html", "contact.html", "privacy.html", "terms.html"] + [f"erp/{x['slug']}.html" for x in PRODUCTS]
     smap = "".join(f"<url><loc>{BASE}/{u}</loc><lastmod>{TODAY}</lastmod><priority>{'1.0' if not u else '0.8'}</priority></url>" for u in urls)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{smap}</urlset>\n')

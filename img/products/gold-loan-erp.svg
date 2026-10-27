@@ -1,1 +1,298 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#87600e"/><stop offset="1" stop-color="#403418"/></linearGradient><radialGradient id="gl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ca8a04" stop-opacity=".55"/><stop offset="1" stop-color="#ca8a04" stop-opacity="0"/></radialGradient></defs><rect width="1000" height="780" rx="40" fill="url(#bg)"/><circle cx="880" cy="90" r="260" fill="url(#gl)"/><circle cx="60" cy="740" r="240" fill="url(#gl)"/><circle cx="25" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="25" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="75" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="125" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="175" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="225" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="275" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="325" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="375" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="425" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="475" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="525" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="575" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="625" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="675" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="725" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="775" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="825" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="875" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="925" cy="775" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="25" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="75" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="125" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="175" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="225" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="275" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="325" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="375" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="425" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="475" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="525" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="575" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="625" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="675" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="725" r="1.6" fill="#fff" opacity=".12"/><circle cx="975" cy="775" r="1.6" fill="#fff" opacity=".12"/><rect x="60" y="100" width="720" height="500" rx="26" fill="#fff"/><circle cx="96" cy="136" r="7" fill="#fca5a5"/><circle cx="120" cy="136" r="7" fill="#fcd34d"/><circle cx="144" cy="136" r="7" fill="#86efac"/><rect x="60" y="160" width="720" height="2" fill="#eef0f5"/><rect x="60" y="162" width="150" height="438" rx="0" fill="#f6f7fb"/><rect x="82" y="188" width="106" height="14" rx="7" fill="#ca8a04"/><rect x="82" y="236" width="106" height="14" rx="7" fill="#d5d9e3"/><rect x="82" y="284" width="106" height="14" rx="7" fill="#d5d9e3"/><rect x="82" y="332" width="106" height="14" rx="7" fill="#d5d9e3"/><rect x="82" y="380" width="106" height="14" rx="7" fill="#d5d9e3"/><rect x="82" y="428" width="106" height="14" rx="7" fill="#d5d9e3"/><rect x="236" y="186" width="162" height="96" rx="16" fill="#f6f7fb"/><rect x="252" y="204" width="60" height="9" rx="4.5" fill="#c3c9d6"/><rect x="252" y="228" width="90" height="22" rx="8" fill="#ca8a04" opacity="1.0"/><rect x="414" y="186" width="162" height="96" rx="16" fill="#f6f7fb"/><rect x="430" y="204" width="60" height="9" rx="4.5" fill="#c3c9d6"/><rect x="430" y="228" width="76" height="22" rx="8" fill="#ca8a04" opacity="0.78"/><rect x="592" y="186" width="162" height="96" rx="16" fill="#f6f7fb"/><rect x="608" y="204" width="60" height="9" rx="4.5" fill="#c3c9d6"/><rect x="608" y="228" width="62" height="22" rx="8" fill="#ca8a04" opacity="0.56"/><rect x="236" y="304" width="338" height="270" rx="16" fill="#f6f7fb"/><rect x="260" y="482" width="26" height="70" rx="8" fill="#ca8a04" opacity="0.35"/><rect x="303" y="432" width="26" height="120" rx="8" fill="#ca8a04" opacity="0.44"/><rect x="346" y="462" width="26" height="90" rx="8" fill="#ca8a04" opacity="0.53"/><rect x="389" y="392" width="26" height="160" rx="8" fill="#ca8a04" opacity="0.62"/><rect x="432" y="422" width="26" height="130" rx="8" fill="#ca8a04" opacity="0.71"/><rect x="475" y="362" width="26" height="190" rx="8" fill="#ca8a04" opacity="0.80"/><rect x="518" y="402" width="26" height="150" rx="8" fill="#ca8a04" opacity="0.89"/><rect x="590" y="304" width="170" height="270" rx="16" fill="#f6f7fb"/><circle cx="675" cy="410" r="52" fill="none" stroke="#dde1ea" stroke-width="18"/><circle cx="675" cy="410" r="52" fill="none" stroke="#ca8a04" stroke-width="18" stroke-dasharray="210 330" stroke-linecap="round" transform="rotate(-90 675 410)"/><rect x="612" y="494" width="126" height="10" rx="5" fill="#c3c9d6"/><rect x="612" y="518" width="90" height="10" rx="5" fill="#dde1ea"/><g transform="translate(690 230)"><rect width="270" height="520" rx="46" fill="#0b1220"/><rect x="10" y="10" width="250" height="500" rx="38" fill="#fff"/><rect x="95" y="20" width="80" height="18" rx="9" fill="#0b1220"/><rect x="10" y="10" width="250" height="190" rx="38" fill="#ca8a04"/><rect x="10" y="120" width="250" height="80" fill="#ca8a04"/><circle cx="135" cy="104" r="42" fill="#8d6103" opacity=".55"/><g transform="translate(105 74) scale(2.5)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9l4-6zM2 9h20M12 21L8 9l4-6 4 6-4 12"/></g><rect x="80" y="160" width="110" height="12" rx="6" fill="#fff" opacity=".85"/><rect x="30" y="222" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="247" r="12" fill="#ca8a04" opacity="1.0"/><rect x="78" y="236" width="110" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="253" width="70" height="8" rx="4" fill="#dde1ea"/><rect x="30" y="284" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="309" r="12" fill="#ca8a04" opacity="0.8"/><rect x="78" y="298" width="102" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="315" width="70" height="8" rx="4" fill="#dde1ea"/><rect x="30" y="346" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="371" r="12" fill="#ca8a04" opacity="0.6"/><rect x="78" y="360" width="94" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="377" width="70" height="8" rx="4" fill="#dde1ea"/><rect x="30" y="408" width="210" height="50" rx="14" fill="#f3f4f8"/><circle cx="56" cy="433" r="12" fill="#ca8a04" opacity="0.3999999999999999"/><rect x="78" y="422" width="86" height="10" rx="5" fill="#c3c9d6"/><rect x="78" y="439" width="70" height="8" rx="4" fill="#dde1ea"/></g><g transform="translate(40 650)"><rect width="232" height="54" rx="27" fill="#fff"/><circle cx="28" cy="27" r="9" fill="#ca8a04"/><text x="48" y="35" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="21" font-weight="700" fill="#0f172a">Gold appraisal</text></g><g transform="translate(610 70)"><rect width="220" height="54" rx="27" fill="#fff"/><circle cx="28" cy="27" r="9" fill="#ca8a04"/><text x="48" y="35" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="21" font-weight="700" fill="#0f172a">Auto interest</text></g><g transform="translate(500 668)"><rect width="220" height="54" rx="27" fill="#fff"/><circle cx="28" cy="27" r="9" fill="#ca8a04"/><text x="48" y="35" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="21" font-weight="700" fill="#0f172a">Vault control</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-label="gold-loan-erp illustration">
+      
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#070c17"/>
+        <stop offset="50%" stop-color="#0b1324"/>
+        <stop offset="100%" stop-color="#080e1c"/>
+      </linearGradient>
+      <radialGradient id="glow-l" cx="15%" cy="85%" r="65%">
+        <stop offset="0%" stop-color="#787678" stop-opacity="0.32"/>
+        <stop offset="100%" stop-color="#787678" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glow-r" cx="85%" cy="15%" r="60%">
+        <stop offset="0%" stop-color="#ca8a04" stop-opacity="0.45"/>
+        <stop offset="100%" stop-color="#ca8a04" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="shadow-win" x="-10%" y="-10%" width="125%" height="125%">
+        <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.6"/>
+      </filter>
+      <filter id="shadow-phone" x="-15%" y="-10%" width="130%" height="125%">
+        <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000000" flood-opacity="0.75"/>
+      </filter>
+      <filter id="shadow-chip" x="-10%" y="-20%" width="120%" height="150%">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+      </filter>
+      <linearGradient id="chrome-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#141f36"/>
+        <stop offset="100%" stop-color="#101828"/>
+      </linearGradient>
+      <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ca8a04"/>
+        <stop offset="100%" stop-color="#986803"/>
+      </linearGradient>
+    </defs>
+    <!-- Background Canvas -->
+    <rect width="1000" height="780" rx="36" fill="url(#bg)"/>
+    <rect width="1000" height="780" rx="36" fill="url(#glow-l)"/>
+    <rect width="1000" height="780" rx="36" fill="url(#glow-r)"/>
+    
+    <!-- Subtle architectural guidelines -->
+    <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+      <line x1="0" y1="130" x2="1000" y2="130"/>
+      <line x1="0" y1="260" x2="1000" y2="260"/>
+      <line x1="0" y1="390" x2="1000" y2="390"/>
+      <line x1="0" y1="520" x2="1000" y2="520"/>
+      <line x1="0" y1="650" x2="1000" y2="650"/>
+      <line x1="200" y1="0" x2="200" y2="780"/>
+      <line x1="400" y1="0" x2="400" y2="780"/>
+      <line x1="600" y1="0" x2="600" y2="780"/>
+      <line x1="800" y1="0" x2="800" y2="780"/>
+    </g>
+    
+      
+    <!-- Desktop Window Base -->
+    <g transform="translate(50 110)" filter="url(#shadow-win)">
+      <rect width="640" height="500" rx="20" fill="#0b1324" stroke="#1e293b" stroke-width="1.5"/>
+      <!-- Window Title Bar -->
+      <path d="M0 20C0 8.95 8.95 0 20 0h600c11.05 0 20 8.95 20 20v28H0V20z" fill="url(#chrome-bar)"/>
+      <line x1="0" y1="48" x2="640" y2="48" stroke="#1e293b" stroke-width="1"/>
+      <!-- Mac Window Buttons -->
+      <circle cx="24" cy="24" r="6" fill="#ef4444"/>
+      <circle cx="44" cy="24" r="6" fill="#f59e0b"/>
+      <circle cx="64" cy="24" r="6" fill="#10b981"/>
+      <!-- URL / Title Pill -->
+      <g transform="translate(90 12)">
+        <rect width="260" height="24" rx="12" fill="#070c17" stroke="#1e2a42" stroke-width="1"/>
+        <text x="28" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="600" fill="#94a3b8">arvension.in/erp/gold-loan-erp</text>
+        <g transform="translate(10 5) scale(0.55)" fill="none" stroke="#38bdf8" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></g>
+      </g>
+      <!-- Live Sync Pill -->
+      <g transform="translate(490 12)">
+        <rect width="134" height="24" rx="12" fill="#070c17" stroke="#ca8a04" stroke-opacity="0.3" stroke-width="1"/>
+        <circle cx="14" cy="12" r="4" fill="#22c55e"/>
+        <text x="26" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#22c55e">Vault Audit: Verified</text>
+      </g>
+    
+      
+    <!-- Sidebar -->
+    <rect x="0" y="48" width="136" height="442" fill="#070c17" stroke-right="#1e293b" opacity="0.95"/>
+    <line x1="136" y1="48" x2="136" y2="490" stroke="#1e293b" stroke-width="1"/>
+    <!-- Brand mark -->
+    <g transform="translate(18 64)">
+      <rect width="28" height="28" rx="8" fill="#ca8a04"/>
+      <text x="8" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="800" fill="#fff">A</text>
+      <text x="36" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#f8fafc">ARV</text>
+    </g>
+    
+            <g transform="translate(10 112)">
+              <rect width="116" height="32" rx="8" fill="#ca8a04" fill-opacity="0.2" stroke="#ca8a04" stroke-opacity="0.5" stroke-width="1"/>
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#ffffff" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9l4-6zM2 9h20M12 21L8 9l4-6 4 6-4 12"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Appraisal</text>
+            </g>
+            
+            <g transform="translate(10 154)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Vault</text>
+            </g>
+            
+            <g transform="translate(10 196)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Interest</text>
+            </g>
+            
+            <g transform="translate(10 238)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Customers</text>
+            </g>
+            
+            <g transform="translate(10 280)">
+              <g transform="translate(10 7) scale(0.75)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3C7.6 3 4 4.3 4 6s3.6 3 8 3 8-1.3 8-3-3.6-3-8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></g>
+              <text x="32" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#64748b">Ledger</text>
+            </g>
+            
+    <!-- User bottom avatar -->
+    <g transform="translate(14 445)">
+      <circle cx="14" cy="14" r="13" fill="#1e293b"/>
+      <text x="9" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#94a3b8">HQ</text>
+      <text x="34" y="13" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Technopark</text>
+      <text x="34" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="500" fill="#64748b">Kerala, India</text>
+    </g>
+    
+      
+        
+        <g transform="translate(152 64)">
+          <rect width="144" height="66" rx="12" fill="#0e172c" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">GOLD IN VAULT</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#f8fafc">48.6 kg</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#eab308" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#eab308">100% Verified</text>
+          </g>
+        </g>
+        
+        <g transform="translate(308 64)">
+          <rect width="144" height="66" rx="12" fill="#0e172c" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">LOAN PORTFOLIO</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#f8fafc">₹5.20 Cr</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#22c55e" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#22c55e">Daily Accrual</text>
+          </g>
+        </g>
+        
+        <g transform="translate(464 64)">
+          <rect width="144" height="66" rx="12" fill="#0e172c" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="12" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">22K GOLD RATE</text>
+          <text x="12" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#f8fafc">₹6,920/g</text>
+          <g transform="translate(12 50)">
+            <rect width="68" height="12" rx="6" fill="#38bdf8" fill-opacity="0.18"/>
+            <text x="6" y="9.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#38bdf8">+₹40 Today</text>
+          </g>
+        </g>
+        
+        <!-- Digital Gold Appraisal Sheet -->
+        <g transform="translate(152 140)">
+          <rect width="320" height="175" rx="14" fill="#0d162a" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Digital Gold Appraisal &amp; Purity Sheet</text>
+          <text x="16" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="500" fill="#94a3b8">Automated LTV Calculation &amp; Packet Seal</text>
+          
+          <g transform="translate(16 48)">
+            <rect width="288" height="30" rx="6" fill="#070c17"/>
+            <text x="10" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#eab308">Bangles (4 pcs)</text>
+            <text x="110" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="#f8fafc">Gross: 48.2g • Net: 45.8g</text>
+            <text x="240" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#22c55e">916 KDM</text>
+          </g>
+          <g transform="translate(16 84)">
+            <rect width="288" height="30" rx="6" fill="#070c17"/>
+            <text x="10" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="700" fill="#eab308">Chain &amp; Locket</text>
+            <text x="110" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="#f8fafc">Gross: 24.5g • Net: 23.2g</text>
+            <text x="240" y="19" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#22c55e">916 KDM</text>
+          </g>
+          
+          <g transform="translate(16 122)">
+            <text x="0" y="14" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#94a3b8">Max LTV Sanction (75%):</text>
+            <text x="140" y="14" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#f8fafc">₹2,35,000</text>
+            <rect x="230" y="2" width="58" height="16" rx="8" fill="#eab308" fill-opacity="0.2"/>
+            <text x="238" y="13" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#eab308">APPROVED</text>
+          </g>
+        </g>
+        
+        <!-- Vault Locker & Packet Audit Console -->
+        <g transform="translate(152 325)">
+          <rect width="470" height="152" rx="14" fill="#0d162a" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="16" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Vault Locker Tracking &amp; Packet Audit</text>
+          <text x="350" y="24" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#eab308">● BIOMETRIC LOCK</text>
+          <line x1="16" y1="36" x2="454" y2="36" stroke="#1e293b" stroke-width="1"/>
+          
+          <g transform="translate(16 52)">
+            <rect width="438" height="36" rx="8" fill="#070c17"/>
+            <text x="12" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Packet #GL-9021 • Suresh Babu</text>
+            <text x="12" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="#94a3b8">Locker B-4 • Barcode Verified • Net Weight: 45.80g</text>
+            <text x="280" y="22" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#22c55e">₹2,35,000</text>
+            <rect x="360" y="8" width="66" height="20" rx="10" fill="#22c55e" fill-opacity="0.2"/>
+            <text x="372" y="21.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#22c55e">IN VAULT</text>
+          </g>
+          <g transform="translate(16 98)">
+            <rect width="438" height="36" rx="8" fill="#070c17"/>
+            <text x="12" y="16" font-family="system-ui,-apple-system,sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Packet #GL-9024 • Mini Thomas</text>
+            <text x="12" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="#94a3b8">Locker B-6 • Appraisal Complete • Net Weight: 32.10g</text>
+            <text x="280" y="22" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#22c55e">₹1,65,000</text>
+            <rect x="360" y="8" width="66" height="20" rx="10" fill="#38bdf8" fill-opacity="0.2"/>
+            <text x="370" y="21.5" font-family="system-ui,-apple-system,sans-serif" font-size="8.5" font-weight="700" fill="#38bdf8">SEALED</text>
+          </g>
+        </g>
+        
+      </g>
+      
+    <!-- Modern Smartphone Mockup -->
+    <g transform="translate(646 140)" filter="url(#shadow-phone)">
+      <!-- Outer Metal Body -->
+      <rect width="310" height="570" rx="46" fill="#020617" stroke="#334155" stroke-width="2.5"/>
+      <!-- Inner Bezel -->
+      <rect x="8" y="8" width="294" height="554" rx="40" fill="#090f1d"/>
+      <!-- Screen Header with Dynamic Island -->
+      <path d="M8 48C8 25.9 25.9 8 48 8h214c22.1 0 40 17.9 40 40v30H8V48z" fill="#050a14"/>
+      <!-- Dynamic Island pill -->
+      <rect x="105" y="18" width="100" height="24" rx="12" fill="#000000"/>
+      <circle cx="188" cy="30" r="5" fill="#111827"/>
+      <!-- Phone Status Bar -->
+      <text x="36" y="34" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">9:41</text>
+      <!-- Battery / Wifi icons -->
+      <g transform="translate(242 24)">
+        <rect width="20" height="11" rx="3.5" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <rect x="2" y="2" width="13" height="7" rx="2" fill="#22c55e"/>
+        <path d="M21 4v3" stroke="#f8fafc" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+      <!-- App Header Bar -->
+      <g transform="translate(18 52)">
+        <rect width="274" height="42" rx="10" fill="#0d1629"/>
+        <circle cx="22" cy="21" r="12" fill="#ca8a04"/>
+        <text x="17" y="25" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="800" fill="#fff">A</text>
+        <text x="42" y="26" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">Arvension Gold Loan</text>
+        <circle cx="250" cy="21" r="4" fill="#22c55e"/>
+      </g>
+      
+      <!-- Custom Mobile Screen Content -->
+      <g transform="translate(18 102)">
+        
+        <rect width="274" height="66" rx="14" fill="#0e172a" stroke="#1e293b" stroke-width="1"/>
+        <circle cx="34" cy="33" r="18" fill="#ca8a04"/>
+        <text x="28" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="800" fill="#fff">GL</text>
+        <text x="62" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Suresh Babu</text>
+        <text x="62" y="44" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="500" fill="#94a3b8">Loan #GL-9021 • Locker B-4</text>
+        
+        <g transform="translate(0 76)">
+          <rect width="274" height="110" rx="14" fill="#070f1e" stroke="#1e2d4a" stroke-width="1"/>
+          <text x="14" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#ca8a04">ACTIVE GOLD LOAN</text>
+          <text x="14" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="19" font-weight="800" fill="#f8fafc">₹2,35,000</text>
+          <text x="14" y="68" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#94a3b8">Daily Interest: ₹63.50 • Due: ₹2,150</text>
+          <g transform="translate(14 78)">
+            <rect width="246" height="20" rx="6" fill="#ca8a04"/>
+            <text x="60" y="14" font-family="system-ui,-apple-system,sans-serif" font-size="9" font-weight="700" fill="#fff">PAY INTEREST / RENEW ONLINE</text>
+          </g>
+        </g>
+        
+        <g transform="translate(0 196)">
+          <rect width="274" height="80" rx="14" fill="#0e172a" stroke="#1e293b" stroke-width="1"/>
+          <text x="14" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="700" fill="#38bdf8">GOLD PACKET AUDIT</text>
+          <text x="14" y="38" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="#f8fafc">48.2g (4 Bangles) Hallmarked 916</text>
+          <text x="14" y="54" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#22c55e">Safe in Technopark Main Vault ✓</text>
+        </g>
+        
+      </g>
+      
+      <!-- Mobile Bottom Tab Bar -->
+      <g transform="translate(18 506)">
+        <rect width="274" height="46" rx="14" fill="#070d18" stroke="#1e293b" stroke-width="1"/>
+        <g transform="translate(32 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#ca8a04" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g></g>
+        <g transform="translate(100 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11zM12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></g></g>
+        <g transform="translate(168 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2"/></g></g>
+        <g transform="translate(236 14)"><g transform="translate(0 0) scale(0.8)" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></g></g>
+      </g>
+      <!-- Home indicator bar -->
+      <rect x="95" y="552" width="120" height="4" rx="2" fill="#475569"/>
+    </g>
+    
+      
+    <g transform="translate(40 660)">
+      <rect width="190" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#ca8a04" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#ca8a04"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Gold appraisal</text>
+    </g>
+      
+    <g transform="translate(610 70)">
+      <rect width="181" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#38bdf8" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#38bdf8"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Auto interest</text>
+    </g>
+      
+    <g transform="translate(480 680)">
+      <rect width="181" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow-chip)"/>
+      <circle cx="22" cy="22" r="13" fill="#22c55e" opacity="0.15"/>
+      <circle cx="22" cy="22" r="6" fill="#22c55e"/>
+      <text x="42" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Vault control</text>
+    </g>
+    </svg>
